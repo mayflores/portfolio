@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--abre o documento todo-->
+<head> <!--modifica informações da aba-->
+    <meta charset="UTF-8"> <!--para incluir informações no site-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Pessoal</title> <!--nome da aba-->
+    <link rel="icon" type="imagem/png" href="iconpag.png"> <!--link é usado para relacionar uma fonte ou doc externo ao HTML, REL é relacionamento de doc, TYPE é tipo de doc e HRF significa referência de HTML-->
+    <script> //tag de linguagem javascript
+        alert("Esta página se trata de um currículo online pertencente à Maysa Flores, bem vindo(a)!")
+    </script>
+</head>
+<body> <!--corpo do site, tudo que está abaixo da barra de pesquisa e da aba-->
+
+<style> /*css interno*/
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:-o-linear-gradient(#F0FFFF);
+}
+
+header {
+    background-image: url(imagefundo.jpeg);
+    background-size: 285%;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    position: left;
+}
+    .topo {
+        margin: 5px;
+        padding: 0px;
+    }
+
+    img {
+        margin: 12px;
+        border: 1px solid;
+        border-radius: 100%
+    }
+
+    h1 {
+        margin: 12px;
+        padding:12px;
+        position: relative;
+        font-weight: bold;
+        font-size: 2em;
+        color: white;
+    }
+
+    aside {
+        display: inline;
+        text-align: center;
+        position: center;
+        z-index: 2;
+        top: 7px;
+        right: 7px;
+        padding: 5px; 
+    }
+
+    .secoes> a {
+        text-align: center;
+        position: center;
+        padding: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #00BFFF;
+        border-radius: 10px;
+        text-decoration-line: none;
+        color: white;
+    }
+    
+    h2 {
+        color: #00BFFF;
+        text-decoration:underline;
+        font-weight: bold,italic;
+    }
+
+    .sobre_mim {
+        padding: 5px;
+        text-align: center;
+        font-size: 1,5em;
+    }
+    
+    .formacao {
+        padding: 5px;
+        text-align: center;
+        list-style-position: inside;
+        font-size: 1,5em;
+    }
+
+    .idiomas {
+        padding: 5px;
+        text-align: center;
+        list-style-position: inside;
+        font-size: 1,5em;
+    }
+    
+    .experiencia {
+        padding: 5px;
+        text-align: center;
+        list-style-position: inside;
+        font-size: 1,5em;
+    }
+
+    .hobbies {
+        padding: 5px;
+        text-align: center;
+        list-style-position: inside;
+        font-size: 1,5em;
+    }
+
+    .portfolio {
+        padding: 5px;
+        text-align: center;
+        font-size: 1,5em;
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+    h4 {
+        font-weight: normal;
+        background-color: #F0F8FF;
+        position: center;
+        margin: 4px;
+        padding: 4px;
+        display: inline;
+        border-radius: 10px;
+    }
+    .contato {
+        padding: 5px;
+        text-align: center;
+        font-size: 1,5em;
+    }
+
+    footer {
+    background-color: #00BFFF;
+    position: sticky;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    color: white;
+    font-weight: bold;
+    }
+
+    .credit {
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px 0 100px 0;
+    font-size: 18px;
+    }
+</style>
+
+<header> <!--cabeçalho-->
+    <div class="topo">
+        <img src="fotomei.jpg" width="230px" label="Foto Curriculum"> <!--IMG serve para imagens e precisa estar acompanhado do SRC(recurso)-->
+        <h1>Maysa Flores Cardoso</h1> <!--H usada para títulos e acompanha um número que altera o tamanho, sendo de 1 a 6-->
+    </div>
+</header>
+<main> <!--conteúdo principal-->
+<aside> <!---->
+    <div class="secoes"> <!-- div é como uma divisória, e class serve como um identificador-->
+            <a href="#sobre">♡Sobre mim♡</a> <!--tag A é usada para criar um hyperlink-->
+            <a href="#curriculo">♡Meu currículo♡</a>
+            <a href="#contato">♡Contate-me♡</a>
+            <a href="#portfolio">♡Meu portfólio♡</a>
+    </div>  
+</aside>
+
+    <div class="sobre_mim">
+        <h2 id="sobre">Sobre mim</h2> 
+        <p> Estudante de informática e amante da arte, acredito que para um você precisa do outro e eu adoro fazer isso. Busco crescer na àrea e sonho em ter meu próprio negócio um dia! <br/>
+                Gosto de me comunicar e me saio bem em uma boa equipe, é sempre melhor ter mais de uma cabeça em um projeto. <br/>
+                Atualmente tenho trabalhado com banco de dados e criação de sites pessoais como blogs. <br/> 
+                Estou procurando uma oportunidade para trabalhar em uma grande empresa e assim poder apresentar meus conhecimentos e habilidades.</p> <!--P adiciona um novo parágrafo-->
+    </div>
+
+    <div class="formacao">  
+        <h2 id="curriculo">Formação Acadêmica</h2>
+            <ul>
+                <li>Curso Técnico de Informática Avançada - Microcamp (2021-2023)</li>
+                <li>Técnologo em Análise e Desenvolvimento de Sistemas - Uninter (2023-2025)</li>
+            </ul>
+    </div>
+
+    <div class="idiomas">
+        <h2>Idiomas</h2>
+            <ul> <!--UL  quer dizer: Unordered List que é uma lista em marcadores-->
+                <li> Inglês Intermediário</li> <!--LI é item da lista-->
+            </ul>
+    </div>
+
+    <div class="experiencia">
+        <h2>Experiência Profissional</h2>
+            <ul>
+                <li> UP! Celulares</li>
+                <li> Atendente/Vendedora</li>
+                <li> Freelancer</li>
+                <br/>
+                <li> Brinquedoteca Passatempo</li>
+                <li> Monitora</li>
+                <li> 02 meses</li>
+                <br/>
+                <li> Sherek Lan House e Papelaria</li>
+                <li> Atendente/Serviços Gerais</li>
+                <li> 08 meses</li>
+                <br/>
+                <li> Sapataria & Cia Calçados e Acessórios</li>
+                <li> Atendente/Estoquista</li>
+                <li> 03 meses</li>
+            </ul>        
+    </div>
+
+    <div class="hobbies">
+        <h2>Meus Hobbies</h2>
+            <ul>
+                <li>Cantar</li>
+                <li>Desenhos e Artesanatos</li>
+                <li>Esportes</li>
+                <li>Culinária</li>
+                <li>Jardinagem</li>
+            </ul>
+    </div>
+
+    <div class="portfolio">
+        <h2 id="portfolio">Meu portfólio</h2>
+            <p>Veja meus trabalhos: <a href="ptf.html" target="_blank" rel="noreferrer noopener"></a></p>
+    </div>
+
+    <div class="contato">
+            <h2 id="contato">Contate-me</h2>
+            <h3>Telefone<h3> <h4>19 99613-xxxx</h4>
+            <h3>E-mail</h3> <h4>maysaflores@hotmail.com</h4>
+            <h3>Endereço</h3> <h4>Limeira/SP - Brasil</h4>
+    </div>
+
+  </main>
+  <footer> <!--rodapé-->
+    <p class="credit">Não limite seus desafios. Desafie seus limites! <br/> By: Maysa - Out/2023</p>
+  </footer>
+</body>
+</html>
